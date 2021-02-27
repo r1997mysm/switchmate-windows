@@ -8,7 +8,7 @@ Just download the code, change a few parameters and there you go.
 
 ### Instructions to use:
 
-Here are the three parameters that may need adjustments. Below, I am referring to bleak's 
+Here are the three parameters that may need adjustments. Below, I am referring to bleak's package.
 
 `https://github.com/hbldh/bleak/tree/develop/examples`
 
