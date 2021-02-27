@@ -23,6 +23,6 @@ For my use, I added hotkeys at the last few lines. You can change it however you
 
 ### Note about delays and reconnecting:
 
-The code automatically disconnects and connects everytime we switch. It causes some delay due to reconnecting with the device. One way you can change this is to change lines `27-34` into a infinite loop. Everytime the command `async with BleakClient(address) as client:` ends, the device is disconnected. However, keeps the device connected all the time will probably make the battery run out faster 
+The code automatically disconnects and connects everytime we switch. It causes some delay due to reconnecting with the device. One way you can change this is to change lines `27-34` into a infinite loop. Everytime the command `async with BleakClient(address) as client:` ends, the device is disconnected. However, keeping the device connected all the time will probably make the battery run out faster 
 
 #### Tested on Windows 10 with Switchmate toggle switch
